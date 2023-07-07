@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { deleteCartItem } from "../../store/slices/cartSlice";
 import { RootState } from "../../store/store";
-import { BiCart, BiTrash } from 'react-icons/bi'
+import { BiTrash } from 'react-icons/bi'
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import { toastOption } from "../../toastOption/toastOption"

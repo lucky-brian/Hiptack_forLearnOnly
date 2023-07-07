@@ -37,33 +37,10 @@ const Login = () => {
     }
   })
 
-  // const handleSubmit = async () => {
-  //   event?.preventDefault();
-  //   if (handleValidation()) {
-  //     const { data } = await axios.post(loginRoute, {
-  //       username, password
-  //     });
-  //     if (data.status === false) {
-  //       toast.error('Incorrent username or password', toastOption);
-  //     }
-  //     if (data.status === true) {
-  //       dispatch(login(data.user))
-  //       localStorage.setItem('react-app', JSON.stringify(data.user))
-  //       navigate('/')
-  //     }
-  //   }
-  // }
-
   const handleSubmitLogin = async () => {
     event?.preventDefault();
     if (handleValidation()) {
       const data = await signin(username,password)
-      if (data.status === false) {
-        toast.error(
-          "Username or password is Incorrect.", toastOption);
-          return;
-      }
-      console.log(data)
 
       dispatch(login(data))
       localStorage.setItem('react-app', JSON.stringify(data))

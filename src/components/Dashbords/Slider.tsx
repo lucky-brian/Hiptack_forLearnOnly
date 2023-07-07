@@ -5,30 +5,6 @@ import { useNavigate } from "react-router-dom";
 const Slider = () => {
     const navigate = useNavigate();
 
-    // let count = 0
-    // const [currentIndex, setCurrentIndex] =
-    //     useState(0);
-
-    // const handleOnNextClick = () => {
-    //     count = (count + 1) % sliceImages.length
-    //     setCurrentIndex(count);
-    // };
-    // const handleOnBackClick = () => {
-    //     const productsLength = sliceImages.length;
-    //     count = (currentIndex + productsLength - 1) % productsLength;
-    //     setCurrentIndex(count);
-    // }
-
-    // useEffect(() => {
-    //     startSlider();
-    // }, []);
-
-    // const startSlider = () => {
-    //     setInterval(() => {
-    //         handleOnNextClick();
-    //     }, 4000);
-    // };
-
     return (
         <div className="m-auto flex items-center pt-10 w-2/3">
             <div className="flex justify-center max-lg:flex-col max-lg:justify-center max-lg:items-center">

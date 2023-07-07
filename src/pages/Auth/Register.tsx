@@ -91,7 +91,7 @@ const Register = () => {
           <div>
             <p className="text-white text-2xl font-black text-center py-2">SIGN UP</p>
           </div>
-          <form onSubmit={(e) => handleSubmit()}>
+          <form onSubmit={() => handleSubmit()}>
             <div className="text-lg">
               <label htmlFor="username" className="text-white">Username</label>
               <input

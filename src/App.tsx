@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense } from 'react'
 // import { SeriesProps } from './interfaces/SeriesProps'
 // import Form from './components/Form'
 // import List from './components/List'
