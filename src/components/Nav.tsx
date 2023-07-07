@@ -15,7 +15,7 @@ const Nav = () => {
     const logOut = () => {
         localStorage.clear()
         dispatch(logout())
-        window.location.reload();
+        // window.location.reload();
         navigate('/')
     }
 
