@@ -46,19 +46,19 @@ const Nav = () => {
                     user ? (
                         <div className="profile">
                             <button
-                                className="border border-black p-1 font-black"
+                                className="border border-black p-1 font-black rounded-lg"
                                 onClick={() => logOut()}
                             >
-                                LOGOUT
+                                Logout
                             </button>
                         </div>
                     ) : (
                         <div className="profile">
                             <button
-                                className="border border-black p-1 font-black hover:bg-black hover:text-white"
+                                className="border border-black p-1 font-black hover:bg-black hover:text-white rounded-lg"
                                 onClick={() => navigate('/login')}
                             >
-                                SIGN IN
+                                Sign in
                             </button>
                         </div>
                     )
